@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "salesforce": {
+      "command": "/absolute/path/to/salesforce-mcp-agent/.venv/bin/salesforce-mcp",
+      "env": { "SF_MODE": "demo" }
+    },
+    "billing": {
+      "command": "/absolute/path/to/salesforce-mcp-agent/.venv/bin/billing-mcp"
+    }
+  }
+}
